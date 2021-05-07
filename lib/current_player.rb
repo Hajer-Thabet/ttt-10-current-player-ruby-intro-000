@@ -8,9 +8,10 @@ def turn_count(board1)
       if (board1[i]=="X")|| (board1[i]=="O")
 
 
-        i+=1
         n+=1
+        
         puts "#{n}"
+        i+=1
       else
         i+=1
 
