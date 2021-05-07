@@ -5,9 +5,9 @@ def turn_count(board1)
     while i<8
       if board1[i]=="X"|| board1[i]=="O"
 
-      
+
         i+=1
-        
+
        end
 
 
