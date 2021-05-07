@@ -9,7 +9,7 @@ def turn_count(board1)
 
 
         n+=1
-        
+
         puts "#{n}"
         i+=1
       else
