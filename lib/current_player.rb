@@ -2,8 +2,11 @@ def turn_count(board)
 
   board.count{|token| token=="X" || token=="O"}
 end
-
-turn_count(board)
+end
+board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+turn_count(board1)
+turn_count(board2)
 
 
 
